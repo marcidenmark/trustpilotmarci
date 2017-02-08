@@ -57,6 +57,7 @@
 }
 .card-category {
     position: absolute;
+    padding-right: 20px;
     top: 10px;
     left: 88px;
     font-size: 14px;
@@ -82,7 +83,7 @@
 .card-description {
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 18px;
 }
 
 .card-description-large {
