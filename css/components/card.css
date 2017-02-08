@@ -1,0 +1,128 @@
+.card {
+  min-height: 250px;
+  background-color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px
+}
+
+
+.card-cris {
+  min-height: 250px;
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  overflow:hidden;
+  padding: 20px 30px;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px
+}
+
+.card .reviewer,
+.card .stars,
+.card .the_date,
+.card .description {
+  width: 100%;
+  float: left;
+}
+
+.stars-top h2{
+  margin-top: 6px;
+}
+
+.card-larger {
+  min-height: 300px;
+  background-color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px
+}
+
+
+.card-user {
+    position: absolute;
+    left: 10px;
+    top: -37px;
+}
+.card-category {
+    position: absolute;
+    top: 10px;
+    left: 88px;
+    font-size: 14px;
+    color: black;
+}
+
+.reviewer-large-name {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 14px;
+    color: black;
+}
+
+.date {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-size: 14px;
+    color: black;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-description-large {
+  padding-left: 400px;
+  padding-right: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-description h2 {
+  font-size: 22px;
+}
+.card-description p {
+  font-size: 15px;
+}
+
+.fa {
+    display: inline-block;
+    color: #007F4E;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+    letter-spacing: 4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover{
+  opacity: 0.1;
+}
+
+
+
+
